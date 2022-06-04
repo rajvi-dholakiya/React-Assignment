@@ -15,9 +15,11 @@ const Cardbox = (props: CardBoxProps) => {
                     <PushPinIcon />
                 </SvgIcon>
             </div>
-            <Card title="Accounting" />
-            <Card title="Accounting" />
 
+
+
+            <Card title="Accounting" />
+            <Card title="Accounting" />
 
         </section>
     )

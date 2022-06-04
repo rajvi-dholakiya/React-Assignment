@@ -6,6 +6,8 @@ import Dropdown from './components/dropdown';
 import { Container } from '@mui/system';
 import Cardbox from './components/cardbox';
 import Rectangle from './components/rectangle';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
           <Dropdown item={["item1", "item2"]} title="Services" />
           <Dropdown item={["item1", "item2"]} title="Task" />
         </div>
-        <Rectangle />      </Container>
+        <Rectangle />
+      </Container>
     </div>
   );
 }
